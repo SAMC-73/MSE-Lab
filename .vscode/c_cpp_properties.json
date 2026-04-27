@@ -2,13 +2,13 @@
     "configurations": [
         {
             "name": "ARM none eabi GCC",
-            "includePath": [ // Add all the include paths here
+            "includePath": [
                 "${workspaceFolder}",
                 "${workspaceFolder}/CMSIS/*/Include",
                 "${workspaceFolder}/Files_c",
                 "${workspaceFolder}/Files_h"
             ],
-            "defines": [ // Add all the project defines here
+            "defines": [
                 "STM32F411xE"
             ],
             "cStandard": "c99",
